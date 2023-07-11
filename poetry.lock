@@ -88,13 +88,13 @@ test = ["pytest", "pytest-cov"]
 
 [[package]]
 name = "strawberry-graphql"
-version = "0.193.0"
+version = "0.194.4"
 description = "A library for creating GraphQL APIs"
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "strawberry_graphql-0.193.0-py3-none-any.whl", hash = "sha256:072997e654dde90356607dc49be35a310d1c134b95ef9e7a657277f2336a47b5"},
-    {file = "strawberry_graphql-0.193.0.tar.gz", hash = "sha256:4171ccac21fade71106d70c539d0f92a1303b34e9aa57d0cf47bb323ef45c7be"},
+    {file = "strawberry_graphql-0.194.4-py3-none-any.whl", hash = "sha256:80d1a4a4b2a5f434cc5d1c489724bc149db2834a37c9c64d2191086876373893"},
+    {file = "strawberry_graphql-0.194.4.tar.gz", hash = "sha256:803e9525c35a216f0e89b76b9d6a934653ca6fa14f7eb42399e57c0c4183afdd"},
 ]
 
 [package.dependencies]
@@ -121,18 +121,18 @@ starlite = ["starlite (>=1.48.0)"]
 
 [[package]]
 name = "strawberry-graphql-django"
-version = "0.10.2"
+version = "0.10.6"
 description = "Strawberry GraphQL Django extension"
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "strawberry_graphql_django-0.10.2-py3-none-any.whl", hash = "sha256:460de200c00fe7bf2d611643338ef8062f37ce6560dfc424cb4649bf9895f194"},
-    {file = "strawberry_graphql_django-0.10.2.tar.gz", hash = "sha256:1cd3961598c5d37a1032480183d57c5b5907a9a2a3089bab41122f3e1fc5b4bb"},
+    {file = "strawberry_graphql_django-0.10.6-py3-none-any.whl", hash = "sha256:a60a0e8941a4f29d8e5de677ef817313c2185671d5dfc2add1492fdb14210afb"},
+    {file = "strawberry_graphql_django-0.10.6.tar.gz", hash = "sha256:12d02c0078a81fd0e9135c1be1ac898247c466cf0c2446c62ccfa7c54ce87bc9"},
 ]
 
 [package.dependencies]
 Django = ">=3.2"
-strawberry-graphql = ">=0.192.1"
+strawberry-graphql = ">=0.194.1"
 
 [package.extras]
 debug-toolbar = ["django-debug-toolbar (>=3.4)"]
@@ -163,4 +163,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "09e1f2d97f1d21669aae775c99e720933795e86449c54d736cf3c60c0ae990f0"
+content-hash = "534a2f3866965d145931f403c0204fa5196b878cb9f8f1e2e43d8b6a6f333ff0"
