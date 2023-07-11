@@ -10,6 +10,7 @@ python = "^3.11"
 strawberry-graphql = "^0.194.4"
 strawberry-graphql-django = "^0.10.6"
 django = "^4.2.3"
+django-model-utils = "^4.3.1"
 
 
 [build-system]

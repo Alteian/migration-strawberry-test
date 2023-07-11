@@ -28,3 +28,13 @@ class UserType(strawberry.relay.Node):
     #random_model: typing.Optional[int] = field(field_name="random_model_pk")
     random_model_id: typing.Optional[int]
     random_model: typing.Optional[int] = field(field_name="random_model_id")
+    
+
+@strawberry_django.type(User)
+class SecondUserType:
+    id: int
+    name: strawberry.auto
+    email: strawberry.auto
+    some_field: strawberry.auto
+    random_model: typing.Optional[RandomModelType]
+    random_model_id: typing.Optional[int]
