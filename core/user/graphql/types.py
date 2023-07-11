@@ -32,7 +32,7 @@ class UserType(strawberry.relay.Node):
 
 @strawberry_django.type(User)
 class SecondUserType:
-    id: int
+    id: strawberry.ID
     name: strawberry.auto
     email: strawberry.auto
     some_field: strawberry.auto
