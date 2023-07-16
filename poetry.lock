@@ -102,13 +102,13 @@ test = ["pytest", "pytest-cov"]
 
 [[package]]
 name = "strawberry-graphql"
-version = "0.194.4"
+version = "0.195.2"
 description = "A library for creating GraphQL APIs"
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "strawberry_graphql-0.194.4-py3-none-any.whl", hash = "sha256:80d1a4a4b2a5f434cc5d1c489724bc149db2834a37c9c64d2191086876373893"},
-    {file = "strawberry_graphql-0.194.4.tar.gz", hash = "sha256:803e9525c35a216f0e89b76b9d6a934653ca6fa14f7eb42399e57c0c4183afdd"},
+    {file = "strawberry_graphql-0.195.2-py3-none-any.whl", hash = "sha256:559298d59da8632df0a3f45902d534af4b0b0f2a2704ab7b0ab2e4d1ceb25251"},
+    {file = "strawberry_graphql-0.195.2.tar.gz", hash = "sha256:9224e12c718e0ada0f07cf496d71296d79611bb90648cfacd0d47b4183e60956"},
 ]
 
 [package.dependencies]
@@ -135,13 +135,13 @@ starlite = ["starlite (>=1.48.0)"]
 
 [[package]]
 name = "strawberry-graphql-django"
-version = "0.10.6"
+version = "0.12.0"
 description = "Strawberry GraphQL Django extension"
 optional = false
 python-versions = ">=3.7,<4.0"
 files = [
-    {file = "strawberry_graphql_django-0.10.6-py3-none-any.whl", hash = "sha256:a60a0e8941a4f29d8e5de677ef817313c2185671d5dfc2add1492fdb14210afb"},
-    {file = "strawberry_graphql_django-0.10.6.tar.gz", hash = "sha256:12d02c0078a81fd0e9135c1be1ac898247c466cf0c2446c62ccfa7c54ce87bc9"},
+    {file = "strawberry_graphql_django-0.12.0-py3-none-any.whl", hash = "sha256:cc43c1dadae509e79ae5afa547265a55c8f2bfd70854d78c22e11b3c5608ebd8"},
+    {file = "strawberry_graphql_django-0.12.0.tar.gz", hash = "sha256:443f38c1e54800bbb982902b566b77ee40e186ea20e57345f4e47eb66a4014dd"},
 ]
 
 [package.dependencies]
@@ -151,6 +151,25 @@ strawberry-graphql = ">=0.194.1"
 [package.extras]
 debug-toolbar = ["django-debug-toolbar (>=3.4)"]
 enum = ["django-choices-field (>=2.2.2)"]
+
+[[package]]
+name = "strawberry-graphql-permission-extension"
+version = "0.1.0"
+description = ""
+optional = false
+python-versions = "^3.10"
+files = []
+develop = false
+
+[package.dependencies]
+strawberry-graphql = "^0.195.2"
+strawberry-graphql-django = "^0.12.0"
+
+[package.source]
+type = "git"
+url = "https://github.com/Alteian/strawberry-graphql-permission-extension.git"
+reference = "HEAD"
+resolved_reference = "174edf37f55fd987ce38a5e33a47aec3cbd33073"
 
 [[package]]
 name = "typing-extensions"
@@ -177,4 +196,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "f37bde909fc48068bb13975a7bc08d214f1f3c44d9151333303fe68c812320db"
+content-hash = "bec33700e18ed29051ff83b68e05c5e11d54fec3d31185c2eac089a74ed2249e"
